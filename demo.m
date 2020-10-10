@@ -1,7 +1,7 @@
 clear
-gcp;
+%gcp;
 
-name = 'granule_love2.tif';
+name = 'Capture 5_XY1602082582_Z0_T000_C0.tif';
 if ~exist(name,'file')  % download file if it doesn't exist in the directory
     url = 'https://www.dropbox.com/s/mjmtwn4pdgydkny/granule_love2.tif.zip?dl=1';
     filename = 'granule_love2.tif.zip';
